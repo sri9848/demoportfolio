@@ -3,93 +3,275 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sridhar Portfolio</title>
+    <title>NS</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <h1>
-        Welcome to My Portfolio
-    </h1>
-    <p>
-        Hello! I am <b>Nenavath Sridhar, </b> Java Full Stack Developer
-    </p>
+<body style="margin: 0px;" >
+  <div class="backDrop">  
     <nav>
-        <a href="#About">About </a>|
-        <a href="#Skills">Skills </a>|
-        <a href="#Project">Projets </a>|
-        <a href="#Education">Education </a>|
-        <a href="#Contact">Contact</a>
-    </nav>
-    <hr>
-    <section id="About">
-    <h2>About Me</h2>
-    <p>I am a motivated Computer Science graduate with strong knowledge in Java, Web Development, and Backend Technologies. I enjoy solving real-world problems using technology.</p>
-    <p>I am always eager to learn new skills and improve my technical abilities.</p>
-    <hr>
-    </section>
-
-    <section id="Skills">
-        <h2>
-            Technical Skills
-        </h2>
-        
-        <ul>
-            <li>
-                <b>
-                    Programming: 
-                </b>
-                Java, Python (Basic)
-            </li>
-            <li>
-                <b>Web: </b>
-                HTML, CSS, JavaScript (Basic)
-            </li>
-            <li>
-                <b>
-                    DataBases: 
-                </b>
-                MySql
-            </li>
-        </ul>
-        <hr>
-    </section>
-    <section id="Projets">
-        <h2>
-            Projects
-        </h2>
-        
-        <h3>
-            Smart Edu Tracker
-        </h3>
-        <p>
-            University management system using Java, Spring Boot, and MySQL. Supports Admin, Faculty, and Student modules.
-        </p>
-        <hr>
-    </section>
-    <section id="Education">
-        <h2>
-            Certifications
-        </h2>
+    <div class="logo" style="margin: 0px;">
+        <span>
+        <i class="fa-brands fa-neos" style="color: rgb(33, 214, 242);"></i>
+    </span>
+<span><i class="fa-brands fa-sitrox" style="color: rgb(33, 214, 242);"></i></span></div>
+    <ul class="links">
        
-        <ul>
+        <!-- <button class="btn"> -->
+        <a href="#home">
             <li>
-                Web Development - Coursera
+            <i class="fa-solid fa-house" style="color: rgb(39, 186, 209);"></i>
+            <span>Home</span>
             </li>
-            <li>Java Programming - Oasis Infobyte
-
-            </li>
-            <li>
-                Machine Learning Basics
-            </li>
-        </ul>
-        <hr>
-    </section>
-    <section id="Contact">
-        <h2>
-            Contact
-        </h2>
-        <p><b>Email: </b> sris61944@gmail.com</p>
+        </a>
+            <!-- </button> -->
         
-        <p><b>Phone: </b>+91 9848583791</p>
+            <!-- <button class="btn"> -->
+        <a href="#about">
+            <li>
+            <i class="fa-solid fa-circle-info" style="color: rgb(33, 214, 242);"></i>
+            <span>About</span></li>
+        </a>
+            <!-- </button> -->
+            <!-- <button class="btn"> -->
+        <li>
+            <i class="fa-solid fa-book-open" style="color: rgb(33, 214, 242);"></i><span>  Education</span></li>
+            <!-- </button> -->
+            <!-- <button class="btn"> -->
+        
+            <!-- </button> -->
+            <!-- <button class="btn"> -->
+                <a href="#project">
+            <li>
+            <i class="fa-solid fa-map" style="color: rgb(33, 214, 242);"></i>
+            <span>Projects</span>
+            </li>
+            </a>
+            <li>
+            <i class="fa-solid fa-laptop" style="color: rgb(33, 214, 242);"></i>
+            <span>Skills</span></li>
+            <!-- </button> -->
+            <!-- <button class="btn"> -->
+        <a href="#certifications">
+            <li>
+            <i class="fa-brands fa-readme" style="color: rgb(33, 214, 242);"></i>
+            <span>Certifications</span></li>
+        </a>
+            <!-- </button> -->
+        <li><button class="btn">
+            <i class="fa-solid fa-briefcase" style="color: rgb(33, 214, 242);"></i>
+            <span>Hire Me</span></button></li>
+        
+    </ul>
+        <div class="menu logo">
+            <a href="#offCanvas">
+                <i class="fa-solid fa-bars" style="color: rgb(33, 214, 242);"></i>
+            </a>
+        </div>
+        <div class="offCanvas menu-font" id="offCanvas">
+            <a href="#" style="float: right;">
+                <i class="fa-solid fa-x" style="color: rgb(189, 18, 18);"></i>
+            </a>
+        
+        
+            <ul class="offCanvas-links ">
+        <a href="#home">
+        <button class="btn-offCanvas">
+            
+            <li>
+            <i class="fa-solid fa-house" style="color: rgb(33, 214, 242);"></i>
+            <span>Home</span>
+            
+            </li>
+            </button>
+            </a>
+        <a href="#about">
+        <button class="btn-offCanvas">
+            
+            <li>
+            <i class="fa-solid fa-circle-info" style="color: rgb(33, 214, 242);"></i>
+            <span>About</span></li>
+        </button>
+        </a>
+        <button class="btn-offCanvas">
+            <li>
+            <i class="fa-solid fa-book-open" style="color: rgb(33, 214, 242);"></i><span>Education</span></li>
+        </button>
+        <button class="btn-offCanvas">
+            <li>
+            <i class="fa-solid fa-laptop" style="color: rgb(33, 214, 242);"></i>
+            <span>Skills</span></li>
+        </button>
+        <button class="btn-offCanvas">
+        <li>
+            <i class="fa-solid fa-map" style="color: rgb(33, 214, 242);"></i>
+            <span>Projects</span>
+            </li>
+            </button>
+            <button class="btn-offCanvas">
+        <li>
+            <i class="fa-brands fa-readme" style="color: rgb(33, 214, 242);"></i>
+            <span>Certifications</span></li>
+            </button>
+        <li><button class="btn-offCanvas">
+            <i class="fa-solid fa-briefcase" style="color: rgb(33, 214, 242);"></i>
+        <span>Hire Me</span></button></li>
+        
+    </ul>
+        </div>
+    
+    </nav>
+    
+<section id="home" class="home">
+
+<div class="home-content">
+
+<h2>Hello, I am</h2>
+<h1 style="color: coral;">Nenavath Sridhar</h1>
+<h2>Software Developer</h2>
+
+<p style="text-align: justify; color: rgb(51, 105, 40); font-size: 1.2rem;">
+Passionate developer skilled in Java, React, MySQL and AWS.
+I build web applications and solve real-world problems
+through technology.
+</p>
+<button class="btn">
+    <!-- <i class="fa-solid fa-file" style="color: rgb(33, 214, 242);"></i> -->
+    <a href="./assets/sridhar.pdf" download="sridhar-resume"><span style="color: aliceblue;">Resume</span></button></a>
+<button class="btn">
+            <i class="fa-solid fa-briefcase" style="color: rgb(33, 214, 242);"></i>
+            <span>Hire Me</span></button><br>
+            <a href="https://github.com/sri9848" style="font-size: 2.5rem;"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nenavath-sridhar/" style="font-size: 2.5rem;"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:sris61944@gmail.com" style="font-size: 2.5rem;"><i class="fa-solid fa-envelope"></i></a>
+            <a href="" style="font-size: 2.5rem;"><i class="fa-brands fa-instagram"></i></a>
+</div>
+
+
+<div>
+<img src="assets/sri.png" class="home-image" >
+</div>
+
+</section>
+
+<!-- ABOUT DETAILS -->
+<section id="about">
+
+<div class="about">
+    <div>
+<img src="/assets/micro.png" alt="" class="about-image">
+</div>
+
+<div class="about-details">
+
+<h1>About Me</h1>
+
+<p>
+I’m a full stack developer who blends creativity with
+technology to build impactful solutions.
+</p>
+<br>
+<br>
+<p ><b>Name</b> <b class="colon1">:</b> Nenavath Sridhar</p>
+<p style="margin-top: 25px;"><b>Date of Birth</b> <b class="colon">:</b> June 12, 2003</p>
+<p style="margin-top: 25px;"><b>Address</b> <b class="colon2">:</b> Telangana, India</p>
+<p style="margin-top: 25px;"><b>PIN Code</b> <b class="colon3">:</b> 509216</p>
+<p style="margin-top: 25px;"><b>Email</b> <b class="colon4">:</b> sris61944@gmail.com</p>
+<p style="margin-top: 25px;"><b>Phone</b> <b class="colon5">:</b> 9848583791</p>
+
+</div>
+
+</div>
+
+</section>
+    <section id="project">
+    <div class="Projects-Container">
+
+        <div class="project">
+            <img src="./assets/smart.png" alt="" class="image">
+            <div style="background-color: rgb(44, 43, 43);margin: 0px;" class="abc">
+                <a href="https://github.com/sri9848/Smart-Edu-Tracker.git"><h2 style="color: tomato;">Smart Edu Tracker</h2></a>
+                <p style="color: white;">-- Smart edu tracker</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="./assets/hospital.png" alt="" class="image">
+            <div style="background-color: rgb(44, 43, 43);margin: 0px;" class="abc">
+                <a href="https://github.com/sri9848/Hospital-Management-using-REST-APIs.git"><h2 style="color: tomato;">Hospital Management</h2></a>
+                <p style="color: white;">-- Hospital Management System </p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="./assets/rain.png" alt="" class="image">
+            <div style="background-color: rgb(44, 43, 43);margin: 0px;" class="abc">
+                <a href="https://github.com/sri9848/Rainfall-Prediction-Using-Machine-learning.git"><h2 style="color: tomato;">Rainfall Prediction</h2></a>
+                <p style="color: white;">-- Rainfall Prediction</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="./assets/tender.png" alt="" class="image">
+            <div style="background-color: rgb(44, 43, 43);margin: 0px;" class="abc">
+                <a href="https://github.com/sri9848/Smart-Tender-Contract-Management-System-Using-Blockchain.git"><h2 style="color: tomato;">Smart Tender Management</h2></a>
+                <p style="color: white;">-- smart tender management system</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="./assets/micro.png" alt="" class="image">
+            <div style="background-color: rgb(44, 43, 43);margin: 0px;" class="abc">
+                <a href="https://github.com/sri9848/Micro-Services.git"><h2 style="color: tomato;">Ecom Using Microservices</h2></a>
+                <p style="color: white;">-- Ecom Using Microservices</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="./assets/student.png" alt="" class="image">
+            <div style="background-color: rgb(44, 43, 43);margin: 0px;" class="abc">
+                <a href="https://github.com/sri9848/Student_Grade_Tracker1.git"><h2 style="color: tomato;">Student Grade Tracker</h2></a>
+                <p style="color: white;">-- Student Grade Tracker</p>
+            </div>
+        </div>
+        
+
+    </div>
     </section>
+    <section id="certifications">
+        
+        <div class="certifications-container">
+
+            
+             <div class="certifications">
+                <a href="https://www.hackerrank.com/certificates/iframe/8e8ec6b9f624"><img src="./assets/sql.png" alt="" class="cer-img"></a>
+            </div>
+             <div class="certifications">
+                <a href="https://coursera.org/share/c1976d19cb43cdad5b2b8f279db4e71c"><img src="./assets/java.png" alt="" class="cer-img"></a>
+            </div>
+            <div class="certifications">
+                <a href="https://drive.google.com/file/d/1YQ_AaKenuNVlYCRBN5yErubKeXFeNnOk/view?usp=sharing">
+                <img src="./assets/pupilfirst.png" alt="" class="cer-img"></a>
+            </div>
+            <div class="certifications">
+                <a href="https://drive.google.com/file/d/1t4MThzkM6wxUhYrSTOpPN3zzrKXo-uqI/view?usp=sharing">
+                <img src="./assets/nptel.png" alt="" class="cer-img">
+                </a>
+            </div>
+            <div class="certifications">
+                <a href="https://coursera.org/share/f8f1a384b4a98ba4f1944ba4fbd72cbd">
+                <img src="./assets/html.png" alt="" class="cer-img"></a>
+            </div>
+            <div class="certifications">
+                <a href="https://coursera.org/share/c02b1c22998c80e0664c1f4b90c19442">
+                <img src="./assets/aws.png" alt="" class="cer-img">
+                </a>
+            </div>
+            <div class="certifications">
+                <a href="https://www.hackerrank.com/certificates/f3c6006fc52d">
+                <img src="./assets/css.png" alt="" class="cer-img"></a>
+            </div>
+            <div class="certifications">
+                <a href="https://drive.google.com/file/d/1FF0KRJSLmF0Avyt3lQBuGbqyU20LfHIR/view?usp=sharing">
+                <img src="./assets/cisco.png" alt="" class="cer-img"></a>
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="https://kit.fontawesome.com/c5553ec494.js" crossorigin="anonymous"></script>
 </body>
 </html>
